@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Festival Program</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <h1>Movie festival</h1>
+    <div class="mainDiv">
+        <p>Please fill in the form</p>
+        
+        <p>Movie</p>
+        
+        <div class="podDiv1">
+            <form action="">
+         <p>Title</p>    
+        <input class="title" type="text" name="title" value="" placeholder="Title">
+        
+        <p>Length (min) </p>    
+            <input class="mLength" type="number" name="length" value="" placeholder="length in min">
+            <br>
+            
+        <select class="genre" >
+            <option value="">-</option>
+            <option value="Drama">Drama</option>
+            <option value="Action">Action</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Thriller">Thriller</option>
+            <option value="Science fiction">Science fiction</option>
+            <br>
+        </select>  
+        <br>
+            <input class="button-1" type="button" name="Create movie" value="Create movie">  
+            <p class="error-1"></p>
+            <ul class="list-1">
+            
+            </ul>
+
+            </form>
+        </div>
+        <p>Program</p>
+        <div class="podDiv2">
+            <form action="">
+                <p>Date</p>
+                <input class="date" type="date" name="date">
+                <input class="button-2" type="button" name="Create program" value="Create program"> 
+                <p class="error-2"></p>
+                <ul class="list-2">
+
+                </ul> 
+            </form>
+            <form>
+            <p>Movie</p>
+            <select class="movie">
+                <option value="">-</option>
+                </select>
+            <p>Program</p>
+            <select class="program">
+                <option value="">-</option>
+                </select>
+            <input class="button-3" type="button" name="Add movie to program" value="Add movie to program"> 
+            </form>
+        </div>
+    </div>
+    
+
+    <script type="module" src="./js/main.js"></script>
+
+</body>
+</html>

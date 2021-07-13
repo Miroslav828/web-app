@@ -1,0 +1,46 @@
+
+.mainDiv{
+    margin: 0 auto;
+
+    width: 90%;
+    border: solid black 1px;
+}
+h1{
+    text-align: center;
+}
+.podDiv1{
+    margin: 10px; 
+    border: solid black 1px;
+    padding: 10px;
+}
+.podDiv2{
+    margin: 10px;
+    border: solid black 1px;
+    padding: 10px;
+}
+p{
+    padding-left: 10px;
+}
+input, select{
+    width: 100%;
+    margin-top: 10px;
+}
+.button-1 {
+    background-color: rgb(76,175,79);
+    color: white;
+    height: 30px;
+}
+.button-2 {
+    background-color: rgb(76,175,79);
+    color: white;
+    height: 30px;
+}
+.button-3 {
+    background-color: rgb(76,175,79);
+    color: white;
+    height: 30px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
